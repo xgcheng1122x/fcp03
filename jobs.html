@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8" >
+        <title>JavaJam Coffee House</title>
+        <link rel="stylesheet" href="javajam.css">
+    </head>
+
+    <body>
+        <div id="wrapper">
+        <header>
+            <h1><b>JavaJam Coffee House</b></h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="music.html">Music</a></li>
+                <li><a href="jobs.html">Jobs</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div id="herojobs"></div>
+                <h2>Jobs at JavaJam</h2>
+                <p>Want to work at JavaJam? Fill out the form below to start your application. <br>
+                Required fields are marked with an asterisk (*)</p>
+                <form method="post" action="https://webdevbasics.net/scripts/javajam8.php">
+                    <label for="myName">*Name: </label>
+                    <input type="text" name="myName" id="myName" required="required">
+                    <label for="myEmail">*Email: </label>
+                    <input type="email" name="myEmail" id="myEmail" required="required">
+                    <label for="myExperience">*Experience: </label>
+                    <textarea cols="20" rows="2" name="myExperience" id="myExperience" required="required"></textarea>
+                    <!-- <input type="radio" name="gender" value="male">Male<br>
+                    <input type="radio" name="gender" value="female">Female
+                    <select name="semester" id="semester">
+                        <option value="sem1">Semester 1</option>
+                        <option value="sem2">Semester 2</option>
+                        <option value="sem3">Semester 3</option>
+                    </select> -->
+                    <input type="submit" value="Apply Now" id="mySubmit">
+                    <input type="reset" value="reset">
+                </form>
+        </main><br>
+        <footer>
+                Copyright &copy; 2023 JavaJam Coffee House<br>
+                <a href="mailto:tangguicheng@test.com">tangguicheng@test.com</a>
+        </footer>
+        </div>
+    
+    </body>
+</html>
